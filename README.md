@@ -1,4 +1,4 @@
-# Pivot Point Package
+# Xaalis_Point Package
 
 ## Table of contents
 
