@@ -17,9 +17,10 @@
 - Pivot_Point(a,b,c)
 
 ```
-a = the high price from the prior trading day
-b = the value of Low that indicates the price from the prior trading day
-c = 
+- a = the high price from the prior trading day
+- b = the value of Low that indicates the price from the prior trading day
+- c = the value of Close that indicates the closing price
+
 ## Usage
 
 This code allow to compute easly the Pivot Point indicators by applying different formula such as the Standard Formula and the formula of Fibonacci,  Camarilla and Woodies.
