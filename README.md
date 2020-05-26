@@ -25,7 +25,7 @@
 
 This code allow to compute easly the Pivot Point indicators by applying different formula such as the Standard Formula and the formula of Fibonacci,  Camarilla and Woodies.
 
-To obtain the output table you need only to put into the function Pivot_Point() the value of High that indicates the high price from the prior trading day, the value of Low that indicates the price from the prior trading day and the value of Close that indicates the closing price from the prior trading day.
+In order to obtain the output table you have to put into the function Pivot_Point() the value of High that indicates the high price from the prior trading day, the value of Low that indicates the price from the prior trading day and the value of Close that indicates the closing price from the prior trading day.
 
 ## License 
 
