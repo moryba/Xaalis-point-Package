@@ -1,0 +1,8 @@
+setup.py
+xaalis_point/__init__.py
+xaalis_point/main.py
+xaalis_point.egg-info/PKG-INFO
+xaalis_point.egg-info/SOURCES.txt
+xaalis_point.egg-info/dependency_links.txt
+xaalis_point.egg-info/not-zip-safe
+xaalis_point.egg-info/top_level.txt
