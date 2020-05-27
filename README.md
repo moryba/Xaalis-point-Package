@@ -14,7 +14,7 @@
 
 - from xaalis_point import Pivot_Point
 
-- Pivot_Point(a,b,c)
+- Pivot_Point(H,L,C)
 
 ```
 - H = the high price from the prior trading day
