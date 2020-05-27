@@ -10,7 +10,7 @@
 
 - The code should run with no issues using Python versions 3.*.
  ```python
-- pip xaalis_point or  pip install xaalis-point==1.6
+- pip install xaalis-point==1.6
 
 - from xaalis_point import Pivot_Point
 
