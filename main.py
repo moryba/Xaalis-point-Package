@@ -48,5 +48,5 @@ def Pivot_Point(H, L, C):
                     "R3 "  : [round(R3,2),round(R3_1,2),round(R3_2,2),round(R3_3,2)],
                     "S3 "  : [round(S3,2),round(S3_1,2), round(S3_2,2),round(S3_3,2)]} 
 
-        table = pd.DataFrame(formula, index=indicators)
+        table = pd.DataFrame(indicator, index=formula)
         return table
