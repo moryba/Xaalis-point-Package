@@ -38,9 +38,9 @@ def Pivot_Point(H, L, C):
         S3_3 = L - 2 * (H - PP_3)
 
 
-        index = ["Standard","Fibonacci", "Camarilla", "Woodies"]
+        formula = ["Standard","Fibonacci", "Camarilla", "Woodies"]
 
-        lista =  {"Pivot"  :  [round(PP,2), round(PP_1,2), round(PP_2,2),round(PP_3,2)],
+        indicators =  {"Pivot"  :  [round(PP,2), round(PP_1,2), round(PP_2,2),round(PP_3,2)],
                     "R1" : [round(R1,2),round(R1_1,2),round(R1_2,2),round(R1_3,2)],
                    "S1" : [round(S1,2),round(S1_1,2), round(S1_2,2),round(S1_3,2)],
                     "R2 " : [round(R2,2),round(R2_1,2), round(R2_2,2),round(R2_3,2)],
@@ -48,5 +48,5 @@ def Pivot_Point(H, L, C):
                     "R3 "  : [round(R3,2),round(R3_1,2),round(R3_2,2),round(R3_3,2)],
                     "S3 "  : [round(S3,2),round(S3_1,2), round(S3_2,2),round(S3_3,2)]} 
 
-        table = pd.DataFrame(lista, index=index)
+        table = pd.DataFrame(formula, index=indicators)
         return table
