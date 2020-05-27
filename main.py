@@ -37,7 +37,7 @@ def Pivot_Point(H, L, C):
         R3_3 = H + 2 * (PP_3 - L)
         S3_3 = L - 2 * (H - PP_3)
 
-####### list of the name of the formual ##########
+####### list of the names of the formuala ##########
         formula = ["Standard","Fibonacci", "Camarilla", "Woodies"]
 ###### dictionary of the indicator ###########
         indicator =  {"Pivot"  :  [round(PP,2), round(PP_1,2), round(PP_2,2),round(PP_3,2)],
